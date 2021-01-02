@@ -1,0 +1,353 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ 
+body {font-family:'Open Sans', sans-serif;background:black;color:white;width:inherit}
+#nav {
+ 
+background:lightblue;
+border:none;
+color:black;
+margin:0;
+position:auto;
+display:flex;
+ 
+}
+ 
+ 
+ 
+#left {
+ 
+justify-content:right;
+ 
+}
+#title {
+ 
+font-family:'Open Sans',sans-serif;
+background: lightblue;
+border:none;
+border-radius:5px;
+color:black;
+font-size:20px;
+left:0;
+top:0;
+vertical-align:middle;
+ 
+}
+#dollar {
+ 
+   text-align:center;
+   font-size:100px;
+ 
+ 
+}
+#upgrade-container {
+   display:none;
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+ 
+ 
+}
+#stat-button {
+ 
+background:white;
+border:none;
+ 
+}
+#side {
+ 
+float:right;
+top:200px;
+right:0;
+position:fixed;
+ 
+ 
+}
+ 
+#stat-button:hover {
+ 
+   background:gray;
+  
+   }
+#open {
+ 
+background:white;
+border:none;
+ 
+}
+#open:hover {
+ 
+   background:gray;
+   border:none;
+  
+   }
+#upgrades {
+   background-color: black;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 500px;
+   height:200px;
+   border-radius:10px;
+ 
+}
+#money {
+ 
+   font-family:'Open Sans',sans-serif;
+   background:none;
+   border:1px solid lightblue;
+   border-radius:10px;
+   color:white;
+   cursor:pointer;
+font-size:200px;
+width: 200px;
+ 
+ 
+}
+#money:hover { 
+
+    border:1px solid blue;
+    color:lightblue; 
+
+
+
+}
+ 
+ 
+.button {
+font-family:'Open Sans',sans-serif;
+background:lightblue;
+border:lightblue; 
+ 
+color:black;
+cursor:pointer;
+width:100px;
+height:50px; 
+ 
+}
+#save {
+ 
+color:white;
+border-radius:0px;
+background: darkblue;
+ 
+ 
+}
+.button:hover {
+   font-family:'Open Sans',sans-serif;
+   background: blue;
+ 
+ 
+  
+   cursor:pointer;
+  
+   }
+#close {
+ 
+ 
+   float:right;
+   width:20px;
+   height:20px;
+ 
+}
+ 
+#manager-btn {
+ 
+display:none;
+ 
+}
+ 
+.bottom-button {
+ 
+   font-family:'Open Sans',sans-serif;
+   background: black;
+   border:1px solid lightblue; 
+   border-radius:5px;
+   font-size:20px;
+   color:lightblue;
+   cursor:pointer;
+   float:left;
+}
+.bottom-button:hover {
+ 
+   font-family:'Open Sans',sans-serif;
+   background: black;
+   border:1px solid blue; 
+   border-radius:5px;
+   font-size:20px;
+   color:blue;
+   cursor:pointer;
+ 
+ 
+}
+#stats {
+   display:none;
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+ 
+ 
+}
+#stats-sub-container {
+ 
+   background-color: black;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 500px;
+   height:200px;
+   border-radius:10px;
+ 
+}
+#x {
+ 
+border:none;
+border-radius:10px;
+font-size:20px;
+width: 30px;
+height:30px;
+float:right;
+cursor:pointer;
+color:white;
+background:none;
+ 
+}
+#x:hover {
+ 
+   border:1px solid gray;
+   border-radius:10px;
+   font-size:20px;
+   width: 30px;
+   height:30px;
+   float:right;
+   cursor:pointer;
+   color:black;
+   background:gray;
+  
+   }
+.upgrade-button {
+ 
+border:1px solid red;
+background:black;
+color:red;
+border-radius:5px;
+font-size:15px;
+cursor:pointer;
+ 
+}
+#santa-btn { 
+   display:none; 
+    border:1px solid red;
+    background:black;
+    color:green;
+    border-radius:5px;
+    font-size:15px;
+    cursor:pointer;
+
+}
+
+.upgrade-button:hover {
+ 
+   border:1px solid red;
+   background:gray;
+   color:red;
+   border-radius: 5px;
+   font-size:15px;
+   cursor:pointer;
+  
+   }
+   #x-stats {
+ 
+       border:none;
+       border-radius:10px;
+       font-size:20px;
+       width: 30px;
+       height:30px;
+       float:right;
+       cursor:pointer;
+       color:white;
+       background:none;
+      
+       }
+ 
+  #codes { 
+    display:none;
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+
+  }
+  #codes-container { 
+       
+    background-color:lightblue;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height:200px;
+    border-radius:10px;
+color:black; 
+
+  }
+  #text { 
+ 
+     font-family: 'Open Sans',sans-serif; 
+    outline:none; 
+    color:red; 
+    width: 300px; 
+   background:white; 
+border-radius:10px; 
+  }
+ #redeem { 
+
+background:black;
+border:1px solid lightblue; 
+border-radius:5px; 
+color:white; 
+font-family:'Open Sans',sans-serif;
+cursor:pointer; 
+ }
+#x-codes { 
+
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+    width: 30px;
+    height:30px;
+    float:right;
+    cursor:pointer;
+    color:white;
+    background:none;
+
+}
+
+ 
+ 
+#director-btn {
+ 
+display:block;
+        
+}
+ 
+ 
+
+
+
+
+  
+
+
+  
+
