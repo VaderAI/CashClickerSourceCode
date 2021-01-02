@@ -163,6 +163,12 @@ function saveGame() {
     localStorage.setItem('director',director); 
     localStorage.setItem('santa',santa); 
 }
+// random alert button 
+function alertCode() { 
+
+  alert('Hint for code, what are you if you make things with code. It starts with D and ends in R, write the word in capital letters in the code section.'); 
+
+}
 // load game 
 function loadGame() { 
     count = localStorage.getItem('count'); 
@@ -232,12 +238,8 @@ document.getElementById("x-codes").onclick = () => {
 let codeInput = document.getElementById('text'); 
 let redeem = document.getElementById('redeem'); 
 function redeemCode() {
-if (codeInput.value == 'SantaWillCome2020') {
-        document.getElementById('codeinfo').innerHTML = 'Click the city tab (shop) for a surprise'
-        santabtn.style.display = "block"; 
-        document.getElementById('director-count').innerHTML = `Director: ${director}`;
-        document.getElementById('manager-count').innerHTML = `Manager: ${manager}`;
-
+if (codeInput.value == 'DEVELOPER') {
+       window.open('https://github.com/VaderAI/CashClickerSourceCode/');
     }
     else { 
         document.getElementById('codeinfo').innerHTML = 'EENVALIDD'
